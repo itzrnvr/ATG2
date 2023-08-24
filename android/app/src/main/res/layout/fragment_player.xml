@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/parent_view"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#000000"
+    android:orientation="vertical"
+    >
+    <com.anatame.flordia.presentation.widgets.flordia_player.FlordiaPlayerSystem
+        android:id="@+id/secure_player2"
+        android:layout_width="match_parent"
+        android:layout_height="238dp" />
+
+    <WebView
+        android:id="@+id/hlsPlayerWeb"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
